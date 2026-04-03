@@ -1,0 +1,17 @@
+{% extends "navbar.html" %}
+
+{% block "content"%}
+
+<main class="container text-center">
+    <h1 fw-bold>Login</h1>
+    <form action="post">
+        <div class="input-group rounded-3 mb-5" style="width: 59%;">
+            <span class="input-text bg-body-tertiary">Username</span>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group rounded-3">
+            <span class="input-text bg-body-tertiary">Password</span>
+            <input type="password" class="form-control">
+        </div>
+    </form>
+    {% endblock content %}
